@@ -24,13 +24,12 @@
             android:id="@+id/action_menuFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
         <action
-            android:id="@+id/action_menuFragment_to_mwweaponsFragment"
-            app:destination="@id/mwweaponsFragment"
-            app:popUpTo="@id/menuFragment" />
+            android:id="@+id/action_menuFragment_to_mwFragment"
+            app:destination="@id/mwFragment" />
     </fragment>
     <fragment
-        android:id="@+id/mwweaponsFragment"
-        android:name="com.application.app_android.Fragments.mwweaponsFragment"
-        android:label="fragment_mwweapons"
-        tools:layout="@layout/fragment_mwweapons" />
+        android:id="@+id/mwFragment"
+        android:name="com.application.app_android.Fragments.mwFragment"
+        android:label="fragment_mw"
+        tools:layout="@layout/fragment_mw" />
 </navigation>

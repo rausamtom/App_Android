@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mw_navgraph"
+    app:startDestination="@id/mwweapons">
+
+    <include app:graph="@navigation/mwweapons"/>
+    <include app:graph="@navigation/mwfavweapons"/>
+
+    <action
+        android:id="@+id/action_mwweapons_to_mwfavweapons"
+        app:destination="@id/mwfavweapons"/>
+
+</navigation>

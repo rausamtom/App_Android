@@ -37,7 +37,7 @@ class MenuFragment : Fragment() {
             findNavController().navigate(R.id.action_menuFragment_to_loginFragment)
         }
         binding.btnMW.setOnClickListener {
-            findNavController().navigate(R.id.action_menuFragment_to_mwweaponsFragment)
+            findNavController().navigate(R.id.action_menuFragment_to_mwFragment)
         }
         return binding.root
     }

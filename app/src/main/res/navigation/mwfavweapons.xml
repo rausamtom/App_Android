@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mwfavweapons"
+    app:startDestination="@id/mwfavweaponsFragment">
+
+    <fragment
+        android:id="@+id/mwfavweaponsFragment"
+        android:name="com.application.app_android.Fragments.mwfavweaponsFragment"
+        android:label="fragment_mwfavweapons"
+        tools:layout="@layout/fragment_mwfavweapons"/>
+
+</navigation>
